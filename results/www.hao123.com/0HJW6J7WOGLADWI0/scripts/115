@@ -1,0 +1,65 @@
+
+var sendMonitorLog = {
+        sendLog: function () {
+
+            var _this = this;
+            var getContainer = document.getElementById('pic_container');
+            var aLi = getContainer.getElementsByTagName('a');
+            for (var i = 0; i < aLi.length; i++) {
+                if (aLi[i].className != 'bd-logo4') {
+                    _this.addEvent(aLi[i], 'click', function (ev) {
+                        _this.sendByIframe('https://m.baidu.com/con?from=lu_wise');
+
+                    })
+
+                }
+            }
+        },
+        getClass: function(tagname, className) { //tagname指元素，className指class的值
+         //判断浏览器是否支持getElementsByClassName，如果支持就直接的用
+            if (document.getElementsByClassName) {   
+                return document.getElementsByClassName(className);
+            }
+            else {    //当浏览器不支持getElementsByClassName的时候用下面的方法
+                var tagname = document.getElementsByTagName_r(tagname);  //获取指定元素
+                var tagnameAll = [];     //这个数组用于存储所有符合条件的元素
+                for (var i = 0; i < tagname.length; i++) {     //遍历获得的元素
+                    if (tagname[i].className == className) {     //如果获得的元素中的class的值等于指定的类名，就赋值给tagnameAll
+                        tagnameAll[tagnameAll.length] = tagname[i];
+                    }
+                }
+                return tagnameAll;
+            }
+        },
+        sendByIframe: function (url) {
+            var ifr = document.createElement("iframe");
+            ifr.id = "ifr" + parseInt(Math.random() * 100000);
+            ifr.style.display = "none";
+            ifr.setAttribute("src", url);
+            document.body.insertBefore(ifr, document.body.firstChild);
+        },
+        addEvent: function (element, eventType, eventHandler) {
+             eventType = eventType.replace(/^on/i, '').toLowerCase();
+            if (element.addEventListener) {
+                element.addEventListener(eventType, eventHandler, false);
+            }
+            else {
+                element.attachEvent('on' + eventType, function () {
+                    eventHandler(window.event);
+                });
+            }
+        },
+        resTag: function (element) {
+            var element = element.parentNode;
+            if (element.tagName.toLowerCase() !== 'a'
+                    && element.tagName.toLowerCase() !== 'body') {
+                return this.resTag(element);
+            }
+            return element;
+        }
+    }
+
+    if (config.exp_flag_mob == '102') {
+
+            sendMonitorLog.sendLog();
+    };

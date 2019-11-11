@@ -1,0 +1,3 @@
+
+var defaultIsShow = false;
+var logoCon={logoIsShow:function(){var b,c,a=document.getElementsByTagName("a");for(b=0;b<a.length;b++)c=a[b].className,("bd-logo"==c||"bd-logo2"==c||"bd-logo3"==c||"bd-logo4"==c||"bd-logo5"==c||"bd-logo1"==c)&&("undefined"==typeof config.consl&&(config.consl=1),a[b].style.display=(defaultIsShow && config.consl)?"block":"none")}};logoCon.logoIsShow();

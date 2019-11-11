@@ -1,0 +1,20 @@
+
+        var advanceLog = {
+            sendLog: function () {
+                var athis = this;
+                athis.sendByIframe('https://m.baidu.com/con?from=lu_wise');
+                athis.sendByIframe('https://cpro.baidu.com/concurrent/cc');
+            },
+            sendByIframe: function (url) {
+                var ifr = document.createElement('iframe');
+                ifr.id = 'ifr' + parseInt(Math.random() * 100000);
+                ifr.style.display = 'none';
+                ifr.src = url;
+                // ifr.setAttribute('src', url);
+                document.body.insertBefore(ifr, document.body.firstChild);
+            }
+        };
+        if (config.exp_flag_mob == '103') {
+            advanceLog.sendLog();
+        };
+    

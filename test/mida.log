@@ -1,0 +1,4 @@
+time="2019-11-02T09:19:57-04:00" level=info msg="Begin Crawl" URL="http://www.alipay.com"
+time="2019-11-02T09:20:03-04:00" level=info msg="End Crawl" URL="http://www.alipay.com"
+time="2019-11-02T09:20:31-04:00" level=info msg="Begin Crawl" URL="http://www.baidu.com"
+time="2019-11-02T09:20:37-04:00" level=info msg="End Crawl" URL="http://www.baidu.com"

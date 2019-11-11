@@ -1,0 +1,70 @@
+
+
+    var picContainerInnerHtml = '';
+    if(ads[0].mt_img_n == 1){
+        picContainerInnerHtml = '<div class="onlyOne picDiv"><img src ="'+ads[0].mt_img_url_0 +'"></div>';
+    }else if(ads[0].mt_img_n == 2){
+        picContainerInnerHtml = '<div id="double_left_id" class="doubleLeft picDiv"><img src ="'+ads[0].mt_img_url_0 +'"></div>'+
+                                '<div id="double_right_id" class="doubleRight picDiv"><img src="'+ads[0].mt_img_url_1+'"></div>';
+    }else if(ads[0].mt_img_n == 3){
+        picContainerInnerHtml = '<div id="three_left_id" class="threeLeft picDiv"><img src="'+ads[0].mt_img_url_0+'"></div>'+
+                                '<div id="three_right_id" class="threeRight">'+
+                                    '<div id="three_right_top_id" class="three-right-top picDiv"><img src="'+ads[0].mt_img_url_1+'"></div>'+
+                                    '<div id="three_right_bottom_id" class="three-right-bottom picDiv"><img src="'+ads[0].mt_img_url_2+'"></div>'+
+                                '</div>';
+    }
+    document.getElementById('click_url').setAttribute('href',ads[0].curl);
+    document.getElementById('pic_container_id').innerHTML = picContainerInnerHtml;
+    var containerDiv = document.getElementById('container');
+    containerDiv.style.height = config.rsi1+'px';
+    containerDiv.style.width = config.rsi0+'px';
+    containerDiv.style.background = config.rss1;
+    containerDiv.style.paddingTop = config.conpt + 'px';
+    containerDiv.style.paddingRight = config.conpr + 'px';
+    containerDiv.style.paddingBottom = config.conpb + 'px';
+    containerDiv.style.paddingLeft = config.conpl + 'px';
+    var titleDiv = document.getElementById('ad_title_id');
+    titleDiv.innerHTML = ads[0].desc;
+    titleDiv.style.marginBottom = config.itecpl+'px';
+    titleDiv.style.color = config.ptFC; 
+    titleDiv.style.fontSize = config.ptFS +'px';
+    titleDiv.style.lineHeight = config.ptFS+2+'px';
+    titleDiv.style.fontFamily = config.titFF ||"宋体";
+    if(config.ptFW == 1){titleDiv.style.fontWeight ="bold"};
+    var calcImgWidth = config.imWidth > config.rsi0 - config.conpr-config.conpl?config.rsi0 -config.conpr-config.conpl:config.imWidth;
+    var calcImgHeight = config.imHeight;
+    if(config.imHeight>config.rsi1 - config.conpt - config.conpb - config.ptFS - 2 - config.itecpl){
+        calcImgHeight = config.rsi1 - config.conpt - config.conpb - config.ptFS - 2 - config.itecpl
+    };
+    var picContaiinerDiv = document.getElementById('pic_container_id');
+    picContaiinerDiv.style.height = calcImgHeight+"px";
+    picContaiinerDiv.style.width = calcImgWidth +'px' ;
+    //兼容ie8 
+     if (document.all && !document.addEventListener) {
+        var subtractWidth = 1;
+        if (navigator.userAgent.indexOf("MSIE 7.0") > -1) {
+            subtractWidth = 2;
+        }
+        if(ads[0].mt_img_n == 2){
+            document.getElementById('double_left_id').style.width = calcImgWidth/2 - subtractWidth + "px";
+            document.getElementById('double_right_id').style.width = calcImgWidth/2 - subtractWidth + "px";
+        }else if(ads[0].mt_img_n == 3){
+            document.getElementById('three_left_id').style.width = calcImgWidth*0.66 - subtractWidth + "px";
+            document.getElementById('three_right_id').style.width = calcImgWidth*0.34 - subtractWidth + "px";
+            document.getElementById('three_right_top_id').style.height = calcImgHeight/2 - subtractWidth + "px";
+            document.getElementById('three_right_bottom_id').style.height = calcImgHeight/2 - subtractWidth + "px";
+        }
+        
+    }
+    var cur_tu_match = window.location.href.match(/di=.*?&/);
+    if (cur_tu_match && cur_tu_match.length) {
+        config.cur_tu = cur_tu_match[0].replace(/di=/, "").replace("&", "");
+    }
+    window.onload = function(){
+        if (typeof config.cur_tu != "undefined" && (config.cur_tu === "u3971412")){
+            
+        } else {
+            logo.init({containerId:"container",closeDirect:true,feedbackParentId:"container",deviceType:1})
+        }
+    }
+

@@ -1,0 +1,59 @@
+
+        var ads = [{"bid":"","curl":"https://cpro.baidu.com/cpro/ui/uijs.php?en=mywWUA71T1Yknzu9TZKxpyfqnauWpjYsFhwG5H6hpgPxmgKs5H0hph_qm16krAn1PyRsPhfYrHRYPBuo5yFEuiNDPiNDfBNaPiNAwiNjfiNDPBNafBNAfiu_IyVG5HDhUyPsUHY1rjn1rauk5HDsnjnznHmkgvPsTBuzmWYsFMF15HDhTvN_UANzgv-b5HDhTv-b5HfvrHNbPj0vPyNWn1D3m16hTLwGujYkPW0hIjdYTAP_pyPouyf1gv9WFMwb5HndrHRsPH0hIAd15HDdP1cLnjRvn16hIZRqIHndrHRsPH0hIHdCIZwsTzR1fiRzwBRzwMILIzRzwy99U1DznzRzwyPEUiuv5HchpHYzmyFbP1Dvm6&c=news&cf=1&cvrq=569694&expid=200264_200817_200818_205793_207228_209797&fr=5&fv=0&img_typ=2054&itm=0&lu_idc=gzhxy&lukid=1&lus=4695d4065ec318c8&lust=5dbd9566&mscf=0&mtids=2221451024&n=10&nttp=1&p=baidu&pbs=228585&sr=70&ssp2=1&tpl=template_inlay_all_pc_lu_info_flow_image_txt&tsf=dtp:1&u=%2F&uicf=lurecv&urlid=0&eot=1","desc":"折叠屏手机的时代来了","dp_config":1,"dspw":"","height":100,"icon":823,"iconurl":"https://t11.baidu.com/it/u=819462550,1756245582&fm=76","image_url":"https://t11.baidu.com/it/u=819462550,1756245582&fm=76","isHb":false,"lpId":3,"mt_desc":"boe折叠手机","mt_img_n":1,"mt_img_url_0":"https://t11.baidu.com/it/u=819462550,1756245582&fm=76","mt_title":"折叠屏手机的时代来了","surl":"","title":"折叠屏手机的时代来了","type":"text","view_num":1131,"width":840,"word_src":"$"}];//[{"bid":"","curl":"https://cpro.baidu.com/cpro/ui/uijs.php?en=mywWUA71T1YsFh7sT7qGujYsFhPh5HDhmv6qnaubpHY3Fh-1gv7sTjYsFhGo5Hbsmh7BnHfknj99nvD1rADhp1Y-f1T-wH0-fWR-fbD-fbn-wjc-fYf-fHR-fWb-fRc-wjf-fHchp10qFRnLFRRsFRcdFRFKFRFjFRfzFRPDFRDdFRc4FR7aFRfYFRDzFhkdpvbqniuVmLKV5Hm4n1nzFMDqmh7GuZN1pgw-ugFzULFxmLKzFMFB5HDhTMnqniu1uyk_ugFxpyfqniu1pyfqrA79nvD1nj6YnyckmhD4nau1IA-b5HfsnjnhIjdYTAP_pyPouyf1gvdEm-q9TLKxnzuYujY1njn4PHf3FMwVT1YkPH0srj0kPHDvFMwd5gR1njn4PHf3FMRqpZwYTaR1fiRzwBRzwhkdmyw1FHF7mh7GuZR-nbNWUvY-nYD3PWDzFMmqniuG5H9hPWf4nHRd&c=news&fv=0&itm=0&kdi0=8&lukid=1&mscf=0&n=10&nttp=2&p=baidu&ssp2=2&swi=1&tsf=dtp:2&u=%2Fluads%2Ehtml&urlid=0","desc":"青岛家庭公寓","dspw":"","height":60,"icon":591,"iconurl":"http://f10.baidu.com/it/u=95486616,4260237839&fm=76","image_url":"http://f10.baidu.com/it/u=95486616,4260237839&fm=76","isHb":false,"lpId":3,"desc":"青岛家庭旅馆日租房 青岛短租房信息","mt_img_n":1,"mt_img_url_0":"http://f10.baidu.com/it/u=95486616,4260237839&fm=76","title":"青岛家庭公寓","surl":"","title":"青岛家庭公寓","type":"text","width":414,"word_src":"6"}];
+        var ad_num = window.ads.length;
+        for (var i=0; i<ad_num; i++) {
+            if (!window.ads[i].image_url || window.ads[i].image_url == "") {
+                window.ads[i].image_url = "//t11.baidu.com/it/u=675809101,3723009829&fm=76"
+            }
+            if (!window.ads[i].mt_img_url_0 || window.ads[i].mt_img_url_0 == "") {
+                window.ads[i].mt_img_url_0 = "//t11.baidu.com/it/u=675809101,3723009829&fm=76"
+            }
+        }  
+        var config = {"conBW":0,"conpb":0,"conpl":0,"conpr":0,"conpt":0,"consl":1,"imHeight":100,"imWidth":150,"imagenum":1,"itecpl":12,"n":"10032161_cpr","ptDesc":0,"ptFC":"#333333","ptFF":"微软雅黑","ptFS":18,"ptFW":"0","ptPD":3,"ptp":1,"rsi0":840,"rsi1":100,"rss1":"#ffffff","rss2":"#999999","rss3":"#999999","staticDomain":"as1.m.hao123.com","temp_exp_flag":0,"titFF":"微软雅黑","titFS":14,"titPD":10,"titTA":"left"};//{"IF_m_char":14,"at":3,"conBW":0,"conpb":0,"conpl":0,"conpr":0,"conpt":0,"consl":1,"exp_flag":0,"exp_flag_mob":0,"exp_flag_secretary":0,"imC":1,"imHeight":0,"imR":1,"imSiteRecMax":0,"imStid":115,"imTab":1,"imWidth":0,"itecpl":10,"marginCP":0,"n":"bak_dltest2_cpr","pat":15,"picGap":0,"ptDesc":0,"ptFC":000","ptFF":"微软雅黑","ptFS":16,"ptFW":1,"ptLogo":0,"ptn":1,"ptp":0,"rsi0":414,"rsi1":60,"rss1":"#ffffff","rss2":000","rtn":1,"temp_exp_flag":0,"titFF":"微软雅黑","titFS":12,"titNum":999,"titTA":"left","txtC":0,"txtLC":0,"txtR":0,"txtRH":0,"txtSiteRecMax":0};
+        config.enable_title_dot_exp = true;
+        var bdJinglianExpFlag=1;
+        var bdUserPreferenceExpFlag=2;
+        var bdJinglianHoverTitle="";
+        function isLogoOrder(a){if(a.n==="50071140_cpr"){return 1}else{if(a.n==="ifeng_cpr"){return 2}else{return 0}}}
+        if(isLogoOrder(config)===1){config.ptLogo=3}else{if(isLogoOrder(config)===2){config.ptLogo=4}else{config.ptLogo=5}}
+        for(var i=0;i<ads.length;++i){var t=ads[i].mt_desc.split("?");if(t.length==2){ads[i].mt_desc=t[0];ads[i].curl+="&"+t[1]}};
+        var bdJinglianExpFlag=1;
+        var bdUserPreferenceExpFlag=2;
+        var bdJinglianHoverTitle="";
+        for(var i = 0;i<ads.length;++i){
+            var t = ads[i].mt_desc.split("?");
+            if (t.length ==2) {
+                ads[i].mt_desc = t[0];
+                ads[i].curl += "&"+t[1];
+            }
+        }
+        // // union 限制图片宽高 46~1000
+        // if (config.imWidth <= 46 || config.imWidth >= 1000) {
+        //     config.imWidth = 160;
+        //     config.imHeight = config.imHeight * 160 / config.imWidth;
+        // }
+        // // union 标题边距 0~100
+        // if (config.ptPD < 0) {
+        //     config.ptPD = 0;
+        // }
+        // if (config.ptPD > 100) {
+        //     config.ptPD = 100;
+        // }
+        // // 广告位 宽区间：250-1000，高区间：80-1000
+        // config.rsi0  = config.rsi0 > 1000 ? 1000:config.rsi0;
+        // config.rsi0  = config.rsi0 < 250 ? 250:config.rsi0;
+        // config.rsi1  = config.rsi1 > 1000 ? 1000:config.rsi1;
+        // config.rsi1  = config.rsi1 < 80 ? 80:config.rsi1;
+        
+        // 异常情况处理  右图样式切回作图样式防止布局异常
+        if (config.imWidth >= config.rsi0) {
+            config.ptp = 1;
+        }
+        // font-family 中转英
+        if (config.titFF == "微软雅黑") {
+            config.titFF = 'Microsoft YaHei';
+        }
+        if (config.titFF == "宋体") {
+            config.titFF = 'Simsun';
+        }
+    

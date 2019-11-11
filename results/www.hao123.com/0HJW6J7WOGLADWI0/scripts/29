@@ -1,0 +1,2 @@
+BigPipe.hooks["__cb_0_8"]=function(){'use strict';
+require.defer(['indexnew:component/weather/weather.js'], function (init) {init({"async":false,"province":"06","city":"09","district":"01"});});};

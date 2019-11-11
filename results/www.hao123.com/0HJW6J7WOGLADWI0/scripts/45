@@ -1,0 +1,2 @@
+BigPipe.hooks["__cb_0_24"]=function(){'use strict';
+require.defer(['indexnew:component/shortcut/shortcut.js'],function (shortcut) {shortcut();})};

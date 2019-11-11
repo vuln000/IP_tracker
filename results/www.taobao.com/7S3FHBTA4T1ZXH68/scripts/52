@@ -1,0 +1,16 @@
+
+// Limit requests to any client running on .localhost:300x
+CrossStorageHub.init([
+  {
+    origin: /localhost(?:\:\d+)?$/,
+    allow: ['get', 'set', 'del']
+  },
+  {
+    origin: /taobao\.(?:com|net)(?:\:\d+)?$/,
+    allow: ['get', 'set', 'del']
+  },
+  {
+    origin: /(?:alibaba-inc\.com|alibaba\.net)(?:\:\d+)?$/,
+    allow: ['get', 'set', 'del']
+  }
+]);

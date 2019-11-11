@@ -1,0 +1,11 @@
+mida/mida
+.tmp
+mida.log
+results/
+mida
+MIDA.iml
+examples/MIDA_task.json
+Extensions/
+.idea
+vendor/
+website/site

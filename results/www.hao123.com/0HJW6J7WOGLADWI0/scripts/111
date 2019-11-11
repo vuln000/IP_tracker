@@ -1,0 +1,36 @@
+
+try {
+if (window.JSON && window.JSON.stringify && window.postMessage && window.parent) {
+window.parent.postMessage(JSON.stringify({
+"queryid" : "cd68f89ac12d378e",
+"tuid" : "u3595050_1",
+"placement" : {
+    "basic" : {"sspId":1,"userId":10748088,"flowType":1,"cname":"10032161_cpr","tuId":9223372032563403562,"sellType":2,"rspFormat":1,"conBackEnv":1,"publisherDomain":{"dup":"as1.m.hao123.com","ubmc":"as2.m.hao123.com/wltot","pos":"as2.m.hao123.com","wn":"as2.m.hao123.com/ozall"}},
+    "container" : {"height":100,"width":840,"sizeType":1,"anchoredType":1,"floated":{}},
+    "fillstyle" : {"elements":[50],"layout":[1,2],"backgroundColor":"#ffffff","styleTemplateId":[50039],"txt":{"number":0,"ctitle":"#333333","cdesc":"#999999","fontName":"微软雅黑","btitle":"0","titleFontSize":18,"descFontName":"微软雅黑","descFontSize":14},"nativead":{"requiredFields":[7],"screenShot":{"width":150,"height":100},"adNum":1,"imageNum":[1]},"styleType":3,"ignoreStyleMode":1,"paddingTitleTop":3,"marginTitleDescription":10,"marginTitlePicture":12,"pdp":1,"padding":{"left":0,"right":0,"top":0,"bottom":0}},
+    "userdefine" : "%7Ccpro%5Ftemplate%3Dtemplate%5Finlay%5Fall%5Fpc%5Flu%5Finfo%5Fflow%5Fimage%5Ftxt",
+    "encode_userdefine" : "encoded",
+    "complement_type" : 2,
+    "update" : "1564122451_1564122451"
+},
+"extends" : {"ssph":100,"sspw":840}
+,
+"bidder" : "2",
+"noadx" : "0",
+"pdb_deliv" : {
+    "deliv_id" : "0",
+    "deliv_des" : {},
+    "brandad" : 0
+},
+"order_deliv" : {
+    "deliv_id" : "0",
+    "demand_id" : "0"
+},
+"rtb_deliv" : {
+    "deliv_id" : "0",
+    "demand_id" : "3595050"
+}
+}
+), '*');
+}}
+catch(e) {window.console && window.console.log(e);};

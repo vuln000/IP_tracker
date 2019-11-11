@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="template-name" content="template_inlay_all_pc_lu_info_flow_images_big">
+    <meta charset="UTF-8" />
+    <title>百度网盟推广</title>
+    <link rel="stylesheet" href="//cpro.baidustatic.com/cpro/logo/css/logo-sm.css">
+    <script type="text/javascript" src="//cpro.baidustatic.com/cpro/logo/js/logo.js"></script>
+</head>
+<style type="text/css">
+    html,body{
+        margin:0;
+    }
+    .container{
+        box-sizing: border-box;
+        position: relative;
+    }
+    a{
+        text-decoration: none;
+    }
+    .pic_container{
+        width:100%;
+        height: 200px;
+        overflow: hidden;
+    }
+    .picDiv img{
+        width:100%;
+        height: 100%;
+        display: block;
+        -webkit-transition: transform .5s ease-in;
+        transition: transform .5s ease-in;
+    }
+    .picDiv img:hover {
+        -webkit-transform:scale(1.1);
+        transform:scale(1.1);
+    }
+    .picDiv {
+        overflow: hidden;
+    }
+    .adTitle:hover {
+        color: #E80007 !important;
+    }
+    .onlyOne{
+        width: 100%;
+        height: 100%;
+    }
+    .doubleLeft{
+        float: left;
+        height: 100%;
+        width: calc(50% - 1px);
+        box-sizing: border-box;
+        border:1px solid #e4e4e4;
+    }
+    .doubleRight{
+        float: right;
+        width: calc(50% - 1px);
+        height: 100%;
+        box-sizing: border-box;
+        border:1px solid #e4e4e4;
+    }
+    .threeLeft{
+        float: left;
+        height: 100%;
+        width: calc(66.6% - 1px);
+        box-sizing: border-box;
+        border:1px solid #e4e4e4;
+
+    }
+    .threeRight{
+        float: right;
+        height: 100%;
+        width: calc(33.4% - 1px);
+    }
+    .three-right-top{
+        height: calc(50% - 1px);
+        margin-bottom: 2px;
+        width: 100%;
+        box-sizing: border-box;
+        border:1px solid #e4e4e4;
+    }
+    .three-right-bottom{
+        height: calc(50% - 1px);
+        width: 100%;
+        box-sizing: border-box;
+        border:1px solid #e4e4e4;
+    }
+</style>
+<body><script type=text/javascript>
+try {
+if (window.JSON && window.JSON.stringify && window.postMessage && window.parent) {
+window.parent.postMessage(JSON.stringify({
+"queryid" : "02690af62c1c787e",
+"tuid" : "u3760748_0",
+"placement" : {
+    "basic" : {"sspId":1,"userId":10748088,"flowType":1,"cname":"10032161_cpr","tuId":9223372032563569260,"sellType":2,"rspFormat":1,"conBackEnv":1,"publisherDomain":{"dup":"as1.m.hao123.com","ubmc":"as2.m.hao123.com/wltot","pos":"as2.m.hao123.com","wn":"as2.m.hao123.com/ozall"}},
+    "container" : {"height":220,"width":840,"sizeType":1,"anchoredType":1,"floated":{}},
+    "fillstyle" : {"elements":[50],"layout":[1,2],"backgroundColor":"#ffffff","styleTemplateId":[50044],"txt":{"number":0,"ctitle":"#333333","fontName":"微软雅黑","btitle":"0","titleFontSize":18},"nativead":{"requiredFields":[5],"screenShot":{"width":840,"height":210},"adNum":1,"imageNum":[2]},"styleType":3,"ignoreStyleMode":1,"marginTitlePicture":10,"padding":{"left":0,"right":0,"top":0,"bottom":0}},
+    "userdefine" : "%7Ccpro%5Ftemplate%3Dtemplate%5Finlay%5Fall%5Fpc%5Flu%5Finfo%5Fflow%5Fimages%5Fbig",
+    "encode_userdefine" : "encoded",
+    "complement_type" : 2,
+    "update" : "1556084422_1556670616"
+},
+"extends" : {"ssph":220,"sspw":840}
+,
+"bidder" : "2",
+"noadx" : "0",
+"pdb_deliv" : {
+    "deliv_id" : "0",
+    "deliv_des" : {},
+    "brandad" : 0
+},
+"order_deliv" : {
+    "deliv_id" : "0",
+    "demand_id" : "0"
+},
+"rtb_deliv" : {
+    "deliv_id" : "0",
+    "demand_id" : "3760748"
+}
+}
+), '*');
+}}
+catch(e) {window.console && window.console.log(e);};
+</script>
+<!--sid=2c1c787e02690af6--><div style="display:none;"><img src="https://wn.pos.baidu.com/adx.php?c=d25pZD03ZTc4MWMyY2Y2MGE2OTAyAHM9N2U3ODFjMmNmNjBhNjkwMgB0PTE1NzI3MDU2MzgAc2U9MQBidT00AHByaWNlPVhiMlZaZ0FHSTV4N2pFcGdXNUlBOG9MUVNJSEpQanpTZzl2OWVnAGNoYXJnZV9wcmljZT0wAHNoYXJpbmdfcHJpY2U9MAB3aW5fZHNwPTQAY2htZD0xAGJkaWQ9AGNwcm9pZD0Ad2Q9MAB0dT11Mzc2MDc0OABhZGNsYXNzPTEzAHNyY3Q9MABwb3M9MABsb2M9NgBlaWQ9MABiY2htZD0wAHRtPTI2OTUwNjg0NgB2PTEAaT04Mjg0NjZmNg"  height="1px" width="1px" alt="" /></div>
+    <div id="container" class="container">
+        <a id="click_url" class="clickUrl" target="_blank">
+            <div id="ad_title_id" class="adTitle"></div>
+            <div id="pic_container_id" class="pic_container">
+                
+            </div>
+        </a>
+    </div>
+</body>
+<script type="text/javascript">
+        var ads = [{"bid":"","curl":"https://cpro.baidu.com/cpro/ui/uijs.php?en=mywWUA71T1Yknzu9TZKxpyfqnauWpjYsFhwG5H6hpgPxmgKs5H0hph_qnWm4nA7hPWFWnynLrjI-Fh_qFRfdFRndFRFjFRfzFRFDFRRLFRnzFRn1FRf1FRP7FRcYFRFAFRPDFRRvFhkdpvbqniuVmLKV5Hm4njfdFMDqnH0sn1ckPW7xmLKzFMFB5HDhTMnqniu1uyk_ugFxpyfqniu1pyfqPvRLrj7WnhPhPWK9PWbsnBu1IA-b5HDvPiuY5gwsmvkGmvV-ujPxpAnhIAfqn1TvnjTYrauYUgnqnHRLnWTsPHm1rauYIHddn1TvnjTYraud5y9YIZK1FHPKFHFAFHFAILILFHF7pA7EnHc1FHF7mvqVFMmqnBuG5H9-PjNBPjF-&c=news&cf=1&cvrq=316365&expid=200314_202798_205655_206384_207608&fr=5&fv=0&img_typ=2566&itm=0&lu_idc=gzhxy&lukid=1&lus=7e781c2cf60a6902&lust=5dbd9566&mscf=0&mtids=28371074,2000344342&n=10&nttp=1&p=baidu&pbs=228585&sr=70&ssp2=1&tpl=template_inlay_all_pc_lu_info_flow_images_big&tsf=dtp:1&u=%2F&uicf=lurecv&urlid=0&eot=1","desc":"张家界旅游攻略之天门山玻璃栈道，一定要挑战吗？","dp_config":1,"dspw":"","height":220,"icon":862,"iconurl":"https://t12.baidu.com/it/u=1947269876,1922099004&fm=76","image_url":"https://t12.baidu.com/it/u=1947269876,1922099004&fm=76","isHb":false,"lpId":3,"mt_desc":"张家界旅游纯玩","mt_img_n":2,"mt_img_url_0":"https://t12.baidu.com/it/u=1947269876,1922099004&fm=76","mt_img_url_1":"https://t12.baidu.com/it/u=1634872214,4189115650&fm=76","mt_title":"张家界旅游攻略之天门山玻璃栈道，一定要挑战吗？","surl":"","title":"张家界旅游攻略之天门山玻璃栈道，一定要挑战吗？","type":"text","view_num":955,"width":840,"word_src":"$"}];
+        var config = {"conBW":0,"conpb":0,"conpl":0,"conpr":0,"conpt":0,"consl":1,"imHeight":210,"imWidth":840,"imagenum":2,"itecpl":10,"n":"10032161_cpr","ptDesc":2,"ptFC":"#333333","ptFS":18,"ptFW":"0","rsi0":840,"rsi1":220,"rss1":"#ffffff","rss2":"#333333","staticDomain":"as1.m.hao123.com","temp_exp_flag":0,"titFF":"微软雅黑","titFS":12,"titTA":"left"};
+    
+</script>
+<script type="text/javascript">
+
+    var picContainerInnerHtml = '';
+    if(ads[0].mt_img_n == 1){
+        picContainerInnerHtml = '<div class="onlyOne picDiv"><img src ="'+ads[0].mt_img_url_0 +'"></div>';
+    }else if(ads[0].mt_img_n == 2){
+        picContainerInnerHtml = '<div id="double_left_id" class="doubleLeft picDiv"><img src ="'+ads[0].mt_img_url_0 +'"></div>'+
+                                '<div id="double_right_id" class="doubleRight picDiv"><img src="'+ads[0].mt_img_url_1+'"></div>';
+    }else if(ads[0].mt_img_n == 3){
+        picContainerInnerHtml = '<div id="three_left_id" class="threeLeft picDiv"><img src="'+ads[0].mt_img_url_0+'"></div>'+
+                                '<div id="three_right_id" class="threeRight">'+
+                                    '<div id="three_right_top_id" class="three-right-top picDiv"><img src="'+ads[0].mt_img_url_1+'"></div>'+
+                                    '<div id="three_right_bottom_id" class="three-right-bottom picDiv"><img src="'+ads[0].mt_img_url_2+'"></div>'+
+                                '</div>';
+    }
+    document.getElementById('click_url').setAttribute('href',ads[0].curl);
+    document.getElementById('pic_container_id').innerHTML = picContainerInnerHtml;
+    var containerDiv = document.getElementById('container');
+    containerDiv.style.height = config.rsi1+'px';
+    containerDiv.style.width = config.rsi0+'px';
+    containerDiv.style.background = config.rss1;
+    containerDiv.style.paddingTop = config.conpt + 'px';
+    containerDiv.style.paddingRight = config.conpr + 'px';
+    containerDiv.style.paddingBottom = config.conpb + 'px';
+    containerDiv.style.paddingLeft = config.conpl + 'px';
+    var titleDiv = document.getElementById('ad_title_id');
+    titleDiv.innerHTML = ads[0].desc;
+    titleDiv.style.marginBottom = config.itecpl+'px';
+    titleDiv.style.color = config.ptFC; 
+    titleDiv.style.fontSize = config.ptFS +'px';
+    titleDiv.style.lineHeight = config.ptFS+2+'px';
+    titleDiv.style.fontFamily = config.titFF ||"宋体";
+    if(config.ptFW == 1){titleDiv.style.fontWeight ="bold"};
+    var calcImgWidth = config.imWidth > config.rsi0 - config.conpr-config.conpl?config.rsi0 -config.conpr-config.conpl:config.imWidth;
+    var calcImgHeight = config.imHeight;
+    if(config.imHeight>config.rsi1 - config.conpt - config.conpb - config.ptFS - 2 - config.itecpl){
+        calcImgHeight = config.rsi1 - config.conpt - config.conpb - config.ptFS - 2 - config.itecpl
+    };
+    var picContaiinerDiv = document.getElementById('pic_container_id');
+    picContaiinerDiv.style.height = calcImgHeight+"px";
+    picContaiinerDiv.style.width = calcImgWidth +'px' ;
+    //兼容ie8 
+     if (document.all && !document.addEventListener) {
+        var subtractWidth = 1;
+        if (navigator.userAgent.indexOf("MSIE 7.0") > -1) {
+            subtractWidth = 2;
+        }
+        if(ads[0].mt_img_n == 2){
+            document.getElementById('double_left_id').style.width = calcImgWidth/2 - subtractWidth + "px";
+            document.getElementById('double_right_id').style.width = calcImgWidth/2 - subtractWidth + "px";
+        }else if(ads[0].mt_img_n == 3){
+            document.getElementById('three_left_id').style.width = calcImgWidth*0.66 - subtractWidth + "px";
+            document.getElementById('three_right_id').style.width = calcImgWidth*0.34 - subtractWidth + "px";
+            document.getElementById('three_right_top_id').style.height = calcImgHeight/2 - subtractWidth + "px";
+            document.getElementById('three_right_bottom_id').style.height = calcImgHeight/2 - subtractWidth + "px";
+        }
+        
+    }
+    var cur_tu_match = window.location.href.match(/di=.*?&/);
+    if (cur_tu_match && cur_tu_match.length) {
+        config.cur_tu = cur_tu_match[0].replace(/di=/, "").replace("&", "");
+    }
+    window.onload = function(){
+        if (typeof config.cur_tu != "undefined" && (config.cur_tu === "u3971412")){
+            
+        } else {
+            logo.init({containerId:"container",closeDirect:true,feedbackParentId:"container",deviceType:1})
+        }
+    }
+
+</script>
+</html>

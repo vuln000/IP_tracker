@@ -1,0 +1,85 @@
+
+var bds={
+    se:{},
+    su:{
+        urdata:[],
+                urSendClick:function(){}
+    },
+    util:{},
+    use:{},
+    comm : {
+        domain:"http://www.baidu.com",
+        ubsurl : "http://sclick.baidu.com/w.gif",
+        tn:"baidu",
+        queryEnc:"",
+        queryId:"",
+        inter:"",
+        templateName:"",
+        sugHost : "http://suggestion.baidu.com/su",
+        query : "",
+        dpquery: "",
+        qid : "ed517a4200027035",
+        cid : "0",
+        sid : "1466_21081_29567_29220",
+        indexSid : "1466_21081_29567_29220",
+        sampleval : [],
+        stoken : "",
+        serverTime : "1572682883",
+        user : "",
+        username : "",
+        userid : "0",
+        isUserLogin : "0",
+        loginAction : [],
+        useFavo : "",
+        pinyin : "",
+        favoOn : "",
+        cookie : null,
+        userAgent : "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36",
+                curResultNum:"0",
+        rightResultExist:false,
+        protectNum:0,
+        zxlNum:0,
+        pageNum:1,
+        pageSize:10,
+        newindex:0,
+        async:2,
+        maxPreloadThread:5,
+        maxPreloadTimes:10,
+        preloadMouseMoveDistance:5,
+        switchAddMask:false,
+        isDebug:false,
+        ishome : 1,
+        flagTranslateResult:0,
+        globalLogFlag:0
+	,encTn:'b7daTyWgYeBVjissJEQaT3UyXu0M9POBiyc2vcC112qydZKckVdXGw0fpok'    }
+};
+
+
+
+    
+
+
+var name,navigate,al_arr=[];
+var selfOpen = window.open;eval("var open = selfOpen;");
+var isIE=navigator.userAgent.indexOf("MSIE")!=-1&&!window.opera;
+var E = bds.ecom= {};
+
+bds.se.mon = {'loadedItems':[],'load':function(){},'srvt':-1};
+
+try {
+    bds.se.mon.srvt = parseInt(document.cookie.match(new RegExp("(^| )BDSVRTM=([^;]*)(;|$)"))[2]);
+    document.cookie="BDSVRTM=;expires=Sat, 01 Jan 2000 00:00:00 GMT";
+}catch(e){}
+var
+bdUser        = bds.comm.user?bds.comm.user:null,
+bdQuery       = bds.comm.query,
+bdUseFavo     = bds.comm.useFavo,
+bdFavoOn      = bds.comm.favoOn,
+bdCid         = bds.comm.cid,
+bdSid         = bds.comm.sid,
+bdServerTime  = bds.comm.serverTime,
+bdQid         = bds.comm.queryId,
+bdstoken      = bds.comm.stoken,
+login_success = [];
+
+

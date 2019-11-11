@@ -1,0 +1,4 @@
+
+    if(config["temp_exp_flag"] !== 6441) {
+        window.onload=function(){logo.init({containerId:"container",closeDirect:true,feedbackParentId:"container",deviceType:1})};
+    }

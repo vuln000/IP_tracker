@@ -1,0 +1,2 @@
+BigPipe.hooks["__cb_0_4"]=function(){'use strict';
+require.defer(['indexnew:static/js/jquery.js'], function($) {$('#head-wise').on({mouseenter: function () {var $erweima = $('#head-wise').find('.headwise__erweima');var src = $erweima.data('src');if (src) {$erweima.prop('src', src);}$('#head-wise').addClass('headwise--hover');},mouseleave: function () {$('#head-wise').removeClass('headwise--hover');}})});};
