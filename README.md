@@ -33,4 +33,10 @@ DELETE / HTTP/1.1
  GET / JUNK/1.1
 [response......]  
 # 一些截图
- 
+ 左边对一个botnet的C&C服务器进行测试,右边对百度的一个普通服务器测试  
+ ## 看到一些有趣又明显的差别  
+ 首先是对外部数据的请求，C&C服务器一无所有，
+ 其次是证书，从issuer可以看到，显然C&C服务器的证书是伪造的（见过奥巴马签署的）
+ 最后看指纹信息，明显可以看到C&C服务器干净地不像一个提供内容服务的正常服务器。
+![前半部分](https://github.com/sunxueliang96/IP_tracker/blob/master/screen%20shot/Screenshot%20from%202019-11-11%2012-33-40.png)
+![后半部分](https://github.com/sunxueliang96/IP_tracker/blob/master/screen%20shot/Screenshot%20from%202019-11-11%2012-33-59.png)
